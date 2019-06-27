@@ -2,10 +2,10 @@
 
 class HelloGit{
 
-    void helloGit(){
+    public static final void helloGit(String str){
         System.out.println("Hello Git...Welcome!");
    public static void main(String args[]) {
        HelloGit obj = new HelloGit();
-       obj.helloGit();
+       obj.helloGit("Hello");
     }
 }
