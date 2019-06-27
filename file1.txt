@@ -8,4 +8,8 @@ class HelloGit{
        HelloGit obj = new HelloGit();
        obj.helloGit();
     }
+
+    void myBigMethod() {
+       sysout("has a method impl");
+    }
 }
